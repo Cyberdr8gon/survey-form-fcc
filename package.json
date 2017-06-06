@@ -17,6 +17,10 @@
   "scripts": {
     "build": "webpack -p",
     "dev": "webpack-dev-server --hot --inline"
-
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0",
+    "purecss": "^1.0.0"
   }
 }

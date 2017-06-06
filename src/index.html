@@ -5,6 +5,39 @@
     <title>Best Game Ever Survey - Free Code Camp</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Best Game Ever Survey</h1>
+      <form class="pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbwfBtXtKJtVLK8wbmGU9_j7_IODJ4C6X-xk9cIzKsfEhKiJ8w33/exec">
+        <fieldset>
+          <label for="handle" >Handle</label>
+          <input id="handle" type="text" placeholder="@coolGamerDude" name="handle"></input>
+
+          <label for="age">Age</label>
+          <input id="age" type="number" placeholder="42" name="age"></input>
+
+          <label for="type-of-gamer">Type of Gamer</label>
+          <select id="type-of-gamer" name="type-of-gamer">
+            <option value="PC">PC</option>
+            <option value="Xbox">Xbox</option>
+            <option value="Playstation">Playstation</option>
+            <option value="Nintendo - Home">Nintendo Home Consoles</option>
+            <option value="Portable Systems">Portable Systems</option>
+            <option value="Mobile Gamer">Mobile</option>
+          </select>
+          <span class="pure-form-message">Answer with the one you most closely identify with.</span>
+
+          <br/>
+          <label for="best-game-ever">Best Game Ever?</label>
+          <input id="best-game-ever" type="text" placeholder="e.g. Legend of Zelda: Ocarina of Time" name="best-game"></input>
+          <label for="best-game-ever-why">Why do you think so?</label>
+          <textarea id="best-game-ever-why" class="pure-input-1-2" name="reasoning"></textarea>
+
+          </br>
+
+          <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </fieldset>
+      </form>
+    </div>
     <script src="/output/bundle.js"></script>
   </body>
 
