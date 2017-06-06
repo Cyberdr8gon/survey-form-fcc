@@ -61,6 +61,3 @@ typings/
 *~
 *.swp
 *.un
-
-# webpack
-output
